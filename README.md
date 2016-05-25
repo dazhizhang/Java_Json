@@ -30,4 +30,4 @@ org json可以把json字符串中的属性取出来，如果想解析URL页面�
 
 2. 如果需要把字符串转成一个完整object，用com.alibaba.fastjson.JSON;
 定义好class以后，一行代码就搞定了。
-Object result =  JSON.parseObject(content, classname);
+Object result =  JSON.parseObject(content, Classname.class);
