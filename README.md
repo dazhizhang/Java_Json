@@ -33,4 +33,4 @@ org json可以把json字符串中的属性取出来，如果想解析URL页面�
 String content = "json str";
 Classname result =  JSON.parseObject(content, Classname.class);
 
-这个方法奇妙的是还支持不定长的数组啊。
+这个方还支持不定长的数组。
