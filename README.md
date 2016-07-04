@@ -49,6 +49,8 @@ ClassABC objectabc;
 
 T t = objectabc;
 
-String json = JSON.toJSONString(t, true);  // 这个转换对于memeber的命名有一些规范，不是所有的命名都可以成功转换
+String json = JSON.toJSONString(t, true);  
+// 这个转换对于Class的memeber还有member的命名有一些规范，member名字首字母要小写
+get和set function以get，set后面加首字母大写的member名字来命名。
 
 FileUtils.writeStringToFile(filepath, json, Constants.UTF8);
