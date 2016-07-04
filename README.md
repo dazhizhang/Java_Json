@@ -40,6 +40,10 @@ Classname result =  JSON.parseObject(content, Classname.class);
 先使用 com.alibaba.fastjson.JSON 把一个object转化成json字符串，
 再用 FileUtils.writeStringToFile 方法把json字符串写入文件
 
-T t = ***,
+ClassABC objectabc;
+
+T t = objectabc;
+
 String json = JSON.toJSONString(t, true);
+
 FileUtils.writeStringToFile(filepath, json, Constants.UTF8);
