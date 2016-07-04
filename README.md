@@ -36,6 +36,7 @@ Classname result =  JSON.parseObject(content, Classname.class);
 这个方支持不定长的数组。
 
 
+
 3. 如果要把json字符串写入文件进行保存
 
 可以使用 org.apache.commons.io.FileUtils
